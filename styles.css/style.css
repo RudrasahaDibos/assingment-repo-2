@@ -30,6 +30,7 @@
 }
 .img{
     width: 70%;
+
 }
 /* populer-center */
 .populer{
@@ -65,18 +66,24 @@ height: 476px;
     align-items: center;
 }
 .see{
-    justify-content: right;
     text-decoration: none;
      background-color: rgb(255, 81, 81);
      font-size: 20px;
      border-radius: 20px;
      color: white;
-    padding: 10px 10px;
-    justify-content: space-between;
-    text-align:center;
-}
+     padding: 10px 10px;
+
+    
+     }
+    .see-right{
+        text-align: right;
+        margin-top: 1600px;
+    }
+
+
+
 .footer{
-    margin-top: 1700px;
+    margin-top: 100px;
     background-color: rgb(4, 4, 31);
     color: white;
     text-align: center;
@@ -93,8 +100,11 @@ height: 476px;
       .collection{
          grid-template-columns: repeat(1,1fr);
       }
+      .see-right{
+          margin-top: 4600px;
+      }
       .footer{
-          margin-top: 4700px;
+          margin-top: 100px;
           text-align: left;
       }
     
@@ -108,7 +118,11 @@ height: 476px;
          .collection{
           grid-template-columns: repeat(2,2fr);
          }
+        .see-right{
+            margin-top: 2600px;
+        }
+
          .footer{
-             margin-top: 2600px;
+             margin-top: 100px;
          }
 }
